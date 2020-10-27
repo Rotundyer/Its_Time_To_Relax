@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEEF3"
+    android:orientation="vertical"
+    tools:context=".MenuActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/logo_up" />
+
+    <Button
+        android:id="@+id/button_job_relax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_back"
+        android:drawableLeft="@drawable/job_relax"
+        android:padding="20dp"></Button>
+
+    <Button
+        android:id="@+id/button_parameters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_back"
+        android:drawableLeft="@drawable/parameters_back"
+        android:padding="20dp"></Button>
+
+    <Button
+        android:id="@+id/button_statistics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_back"
+        android:drawableLeft="@drawable/statistics"
+        android:padding="20dp"></Button>
+
+    <Button
+        android:id="@+id/button_spravka"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_back"
+        android:drawableLeft="@drawable/spravka_button_back"
+        android:padding="20dp"></Button>
+
+    <Button
+        android:id="@+id/button_rzrab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_back"
+        android:drawableLeft="@drawable/razrab_button_back"
+        android:padding="20dp"></Button>
+
+</LinearLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEEF3"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/logo_up"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Сколько часов в день вы работаете?"
+        android:textSize="20dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginLeft="55dp"
+        android:textColor="#59868E"/>
+
+    <SeekBar
+        android:id="@+id/how_many_job_seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="20dp"
+        android:max="24"
+        android:theme="@style/SeekBarColor_green"/>
+
+    <TextView
+        android:id="@+id/how_many_job"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Сколько часов в день вы отдыхаете?"
+        android:textSize="20dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginLeft="55dp"
+        android:textColor="#59868E"/>
+
+    <SeekBar
+        android:id="@+id/how_many_relax_seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="20dp"
+        android:max="24"
+        android:theme="@style/SeekBarColor_green"/>
+
+    <TextView
+        android:id="@+id/how_many_relax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="На сколько сильно вы устаёте?"
+        android:textSize="20dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginLeft="55dp"
+        android:textColor="#59868E"/>
+
+    <SeekBar
+        android:id="@+id/how_many_fatigue_seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="20dp"
+        android:max="10"
+        android:theme="@style/SeekBarColor_green"/>
+
+    <TextView
+        android:id="@+id/how_many_fatigue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:textSize="30sp" />
+
+</LinearLayout>

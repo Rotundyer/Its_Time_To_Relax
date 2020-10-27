@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StatisticsActivity"
+    android:background="#EFEEF3">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/logo_up"
+        android:layout_marginBottom="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:text="Всего вы проработали:"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:layout_marginRight="55dp"
+            android:layout_marginLeft="55dp"
+            android:textColor="#2E6965"
+            android:layout_weight="0.5"/>
+        <TextView
+            android:text="чч:мм:сс"
+            android:id="@+id/text_info_all_work"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:text="Всего вы отдохнули:"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:layout_marginRight="55dp"
+            android:layout_marginLeft="55dp"
+            android:textColor="#2E6965"
+            android:layout_weight="0.5"/>
+        <TextView
+            android:text="чч:мм:сс"
+            android:id="@+id/text_info_all_recreation"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:text="Степень вашей усталости:"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:layout_marginRight="55dp"
+            android:layout_marginLeft="55dp"
+            android:textColor="#2E6965"
+            android:layout_weight="0.5"/>
+        <TextView
+            android:text="Не известно"
+            android:id="@+id/text_info_all_stats"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SpravkaActivity"
+    android:orientation="vertical"
+    android:background="#EFEEF3">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/spravka"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="25dp"
+        android:text="Справка"
+        android:textColor="#2E6965"
+        android:textSize="25dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:background="@drawable/back_text"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="    Данное приложение поможет Вам лучше узнать себя и напомнит, когда «Пора отдохнуть!»."
+        android:textSize="15dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="#2E6965" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="    Для начала расскажите о себе. Для этого перейдите в пункт «Параметры» и ответьте на все вопросы в нём. Затем, перейдите в пункт «Работа/Отдых». Во время отдыха на экране оставляйте надпись «Вы отдыхаете», а во время работы «Вы работаете». Переключаться между надписями можно с помощью нажатия на них. Чтобы сохранить Ваше время в работе или отдыхе соответственно нажмите кнопку «Остановить». После того, как Вы сохраните время в работе и время в отдыхе, а также заполните пункт «Параметры», Вам станет доступен раздел «Статистика». В это разделе Вы сможете лучше узнать сколько мы прибывали в работе и в отдыхе, а также степень Вашей усталости. Оптимальная степень усталости — 20-26."
+        android:textSize="15dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:textColor="#2E6965" />
+
+</LinearLayout>

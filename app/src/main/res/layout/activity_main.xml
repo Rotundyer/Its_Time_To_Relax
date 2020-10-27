@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+        <ViewFlipper
+            android:id="@+id/viewflipper"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="#EFEEF3">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@drawable/logo_up"
+                    android:layout_marginBottom="20dp"/>
+
+                <TextView
+                    android:id="@+id/text_timer_recreation"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="#EFEEF3"
+                    android:gravity="center"
+                    android:text="чч:мм:сс"
+                    android:textSize="60dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/green"/>
+
+                <Button
+                    android:id="@+id/button_relax"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#EFEEF3"
+                    android:text="Вы отдыхаете"
+                    android:textColor="#999999"
+                    android:textSize="30dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@color/green">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@drawable/logo_up_two"
+                    android:layout_marginBottom="20dp"/>
+
+                <TextView
+                    android:id="@+id/text_timer_work"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="@color/green"
+                    android:gravity="center"
+                    android:textSize="60dp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"/>
+
+                <Button
+                    android:id="@+id/button_job"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#59868E"
+                    android:text="Вы работаете"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30dp" />
+            </LinearLayout>
+        </ViewFlipper>
+
+    <Button
+        android:id="@+id/button_stop"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="ОСТАНОВИТЬ!"
+        android:textSize="30dp"
+        android:layout_margin="20dp"
+        android:textColor="#2E6965"
+        android:background="@drawable/button_back_gray"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"/>
+
+</RelativeLayout>
